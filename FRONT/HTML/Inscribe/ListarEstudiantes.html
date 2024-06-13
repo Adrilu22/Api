@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/JS/Venta/listarVentas.js"></script>
+    <link rel="stylesheet" href="ListarEstudiantes.css"/>
+</head>
+<body>
+    <section>
+        <h2>Consultar Estudiantes por Asignatura</h2>
+        <form name="consultarPorAsignatura">
+            <label for="cod_a">ID de la Asignatura:</label>
+            <input type="number" name="cod_a" id="cod_a">
+            <button onclick="consultarEstuadiantesPorAsignatura()">Consultar</button>
+        </form>
+        <div id="resultadoEstudiantesPorAsignatura"></div>
+    </section>
+</body>
+</html>
+
+

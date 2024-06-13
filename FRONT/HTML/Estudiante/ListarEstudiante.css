@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+ 
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+ 
+label {
+    display: block;
+    margin-top: 10px;
+}
+ 
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ 
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+ 
+button:hover {
+    opacity:1;
+}
+ 
+#respuesta {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Estudiante</title>
+    <script src="/FRONT/JS/Estudiante/AdicionarEstudiante.js"></script>
+    <link rel="stylesheet" href="AdicionarEstudiante.css"/>
+</head>
+<body>
+    <h1>Adicionar Estudiante</h1>
+    <div>
+        <form name="adicionarEstudiante">
+            <label for="nom_e">Nombre Estudiante</label>
+            <input type="text" name="nom_e" id="nom_e">
+
+            <label for="dir_e">Dirección Estudiante</label>
+            <input type="text" name="dir_e" id="dir_e">
+
+            <label for="tel_e">Teléfono Estudiante</label>
+            <input type="text" name="tel_e" id="tel_e">
+
+            <label for="fech_nac">Fecha de Nacimiento</label>
+            <input type="date" name="fech_nac" id="fech_nac">
+
+            <label for="cod_e">Código Estudiante</label>
+            <input type="number" name="cod_e" id="cod_e">
+
+        </form>
+        <button onclick="adicionar()">Adicionar Estudiante</button>
+    </div>
+    <button>
+        <a href="../Menuprincipal.html" target="_blank">Volver al Menu Pricipal</a>
+    </button>
+    <p id="respuesta"></p>
+    <a id="downloadLink" style="display: none;">Descargar JSON </a>
+</body>
+</html>

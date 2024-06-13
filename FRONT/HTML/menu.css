@@ -1,0 +1,44 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+ 
+div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+ 
+h1 {
+    color: #333;
+    font-size: 30px;
+}
+ 
+/* Estilos para el menú */
+menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+ 
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+ 
+a.texto {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+ 
+a.texto:hover {
+    color: #0077cc;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Profesor</title>
+    <script src="/FRONT/JS/Profesor/ListarProfesor.js"></script>
+    <link rel="stylesheet" href="ListarProfesor.css">
+</head>
+<body>
+    <h1>Listar Profesor</h1>
+
+    <form name="listarProfesor">
+        <label for="id_p">ID Profesor</label>
+        <input type="number" name="id_p" id="id_p">
+    </form>
+
+    <h1 id="titulo" style="visibility: hidden;">Datos Profesor</h1>
+    <button onclick="listar()">Listar Profesor</button>
+    <button>
+        <a href="../Menuprincipal.html" target="_blank">Volver al Menu Pricipal</a>
+    </button>
+    <p id="respuesta"></p>
+    <a id="downloadLink" style="display: none;">Descargar JSON </a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Asignaturas y Profesores</title>
+    <script src="/FRONT/JS/Imparte/listarimparte.js"></script>
+    <link rel="stylesheet" href="Listarasigantura.css"/>
+</head>
+<body>
+    <h2>Consultar Asignatura por Profesor</h2>
+    <form name="consultarPorProfesor">
+        <label for="profesorId">ID del Profesor:</label>
+        <input type="number" name="id_p" id="profesorId">
+        <button onclick="consultarAsignaturasPorProfesor()">Consultar</button>
+    </form>
+    <div id="resultadoAsignaturasPorProfesor"></div>
+</body>
+</html>
+
+

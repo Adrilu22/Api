@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Inscribe</title>
+    <script src="/JS/Inscribe/actualizarInscribe.js"></script>
+    <link rel="stylesheet" href="ActualizarInscribe.css"/>
+</head>
+<body>
+    <h1>Actualizar Inscribe</h1>
+    <div>
+        <form name="actualizarInscribe">
+            <label for="cod_e">ID del Estudiante</label>
+            <input type="number" name="cod_e" id="cod_e">
+
+            <label for="cod_a">ID de la Asignatura</label>
+            <input type="number" name="cod_a" id="cod_a">
+
+            <label for="grupo">Grupo</label>
+            <input type="number" name="grupo" id="grupo">
+
+            <label for="n1">Nota 1</label>
+            <input type="number" name="n1" id="n1" min="0" max="5" step="0.1">
+
+            <label for="n2">Nota 2</label>
+            <input type="number" name="n2" id="n2" min="0" max="5" step="0.1">
+
+            <label for="n3">Nota 3</label>
+            <input type="number" name="n3" id="n3" min="0" max="5" step="0.1">
+        </form>
+
+        <p id="respuesta"></p>
+
+        <button onclick="actualizarInscribe()">Actualizar Inscribe</button>
+    </div>
+    
+</body>
+</html>
+

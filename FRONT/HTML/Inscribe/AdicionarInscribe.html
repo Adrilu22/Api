@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Notas</title>
+    <script src="/FRONT/JS/Inscribe/adicionarinscribe.js"></script>
+    <link rel="stylesheet" href="AdicionarInscribe.css"/>
+</head>
+<body>
+    <h1>Adicionar Notas</h1>
+    <div>
+        <form name="adicionarInscripcion">
+            <label for="cod_e">Código del Estudiante</label>
+            <input type="number" name="cod_e" id="cod_e">
+
+            <label for="id_p">ID del Profesor</label>
+            <input type="number" name="id_p" id="id_p">
+
+            <label for="cod_a">Código de la Asignatura</label>
+            <input type="number" name="cod_a" id="cod_a">
+
+            <label for="grupo">Grupo</label>
+            <input type="number" name="grupo" id="grupo">
+
+            <label for="n1">Nota 1</label>
+            <input type="number" name="n1" id="n1" min="0" max="5" step="0.1">
+
+            <label for="n2">Nota 2</label>
+            <input type="number" name="n2" id="n2" min="0" max="5" step="0.1">
+
+            <label for="n3">Nota 3</label>
+            <input type="number" name="n3" id="n3" min="0" max="5" step="0.1">
+        </form>
+
+        <p id="respuesta"></p>
+
+        <button onclick="adicionar()">Adicionar Notas</button>
+    </div>
+</body>
+</html>
+

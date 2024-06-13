@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Asignatura</title>
+    <script src="/FRONT/JS/Asignatura/ActualizarAsignatura.js"></script>
+    <link rel="stylesheet" href="ActualizarAsignatura.css"/>
+</head>
+<body>
+    <h1>Actualizar Asignatura</h1>
+    <div>
+        <form name="actualizarAsignatura" method="post" action="/updateAsignatura">
+            <label for="nom_a">Nombre de la Asignatura</label>
+            <input type="text" name="nom_a" id="nom_a" required>
+
+            <label for="ih">Horas de la Asignatura</label>
+            <input type="number" name="ih" id="ih" required>
+
+            <label for="cred">Créditos de la Asignatura</label>
+            <input type="number" name="cred" id="cred" required>
+
+            <label for="cod_a">Código de la Asignatura</label>
+            <input type="number" name="cod_a" id="cod_a" required>
+
+            <button type="button" onclick="actualizar()">Actualizar Asignatura</button>
+        </form>
+        <button>
+            <a href="../Menuprincipal.html" target="_blank">Volver al Menu Pricipal</a>
+        </button>
+        <p id="respuesta"></p>
+        <a id="downloadLink" style="display: none;">Descargar JSON </a>
+
+
+    </div>
+</body>
+</html>

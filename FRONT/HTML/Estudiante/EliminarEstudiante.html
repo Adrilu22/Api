@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eliminar Estudiante</title>
+        <script src="/FRONT/JS/Estudiante/EliminarEstudiantes.js"></script>
+        <link rel="stylesheet" href="ActualizarEstudiante.css">
+    </head>
+    <body>
+        <h1>Eliminar Estudiante</h1>
+
+        <form name="listarEstudiante">
+            <label for="cod_e">Código Estudiante</label>
+            <input type="number" name="cod_e" id="cod_e">
+        </form>
+        <p id="titulo" style="visibility: hidden;">Datos Estudiante</p>
+        <button onclick="eliminar()">Eliminar Estudiante</button>
+        <p id="respuesta"></p>
+        <a id="downloadLink" style="display: none;">Descargar JSON </a>
+        
+    </body>
+</html>

@@ -1,0 +1,39 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(183, 169, 169, 0.598);
+  }
+ 
+  /* Estilos del menú */
+  menu {
+    
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+ 
+  menu li {
+    display: inline-block;
+  }
+ 
+  menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  menu li a:hover {
+    background-color: #ddd;
+  }
+ 
+  /* Estilos del encabezado */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+ 

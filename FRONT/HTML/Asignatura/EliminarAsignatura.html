@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Asignatura</title>
+    <script src="/FRONT/JS/Asignatura/EliminarAsignatura.js"></script>
+    <link rel="stylesheet" href="EliminarAsignatura.css">
+</head>
+<body>
+    <h1>Eliminar Asignatura</h1>
+
+    <form name="listarAsignatura">
+        <label for="cod_a">Código de la Asignatura</label>
+        <input type="number" name="cod_a" id="cod_a">
+    </form>
+    <p id="titulo" style="visibility: hidden;">Datos Asignatura</p>
+    <button onclick="eliminar()">Eliminar Asignatura</button>
+    <button>
+        <a href="../Menuprincipal.html" target="_blank">Volver al Menu Pricipal</a>
+    </button>
+
+    <p id="respuesta"></p>
+    <a id="downloadLink" style="display: none;">Descargar JSON </a>
+
+</body>
+</html>

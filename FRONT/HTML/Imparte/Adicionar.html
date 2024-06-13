@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Inscripción</title>
+    <script src="/FRONT/JS/Imparte/adicionarimparte.js" defer></script>
+    <link rel="stylesheet" href="Adicionar.css"/>
+</head>
+<body>
+    <h1>Adicionar Inscripción</h1>
+    <div>
+        <form name="adicionarInscripcion">
+        
+            <label for="id_p">ID Profesor</label>
+            <input type="number" name="id_p" id="id_p" required><br>
+
+            <label for="cod_a">Código Asignatura</label>
+            <input type="number" name="cod_a" id="cod_a" required><br>
+
+            <label for="grupo">Grupo</label>
+            <input type="number" name="grupo" id="grupo" required><br>
+
+            <label for="horario">Horario</label>
+            <input type="text" name="horario" id="horario" required><br>
+
+        </form>
+         <button onclick="adicionar()">Adicionar Inscripción</button>
+          <p id="respuesta"></p>
+       
+    </div>
+    <button>
+        <a href="../Menuprincipal.html" target="_blank">Volver al Menu Pricipal</a>
+    </button>
+    <a id="downloadLink" style="display: none;">Descargar JSON</a>
+</body>
+</html>

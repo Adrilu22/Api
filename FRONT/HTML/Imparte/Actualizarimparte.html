@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Imparte</title>
+    <script src="/FRONT/JS/Imparte/actualizarimparte.js"></script>
+    <link rel="stylesheet" href="Actualizar.css"/>
+</head>
+<body>
+    <h1>Actualizar Imparte</h1>
+    <div>
+        <form name="actualizarImparte" onsubmit="return actualizar()">
+            <label for="id_p">ID del Profesor:
+                <input type="number" name="id_p" id="id_p">
+            </label><br>
+ 
+            <label for="cod_a">Código de la Asignatura:
+                <input type="number" name="cod_a" id="cod_a">
+            </label><br>
+ 
+            <label for="grupo">Grupo:
+                <input type="number" name="grupo" id="grupo">
+            </label><br>
+ 
+            <label for="horario">Horario:
+                <input type="text" name="horario" id="horario">
+            </label><br>
+
+            <input type="submit" value="Actualizar Imparte">
+        </form> 
+    </div>
+    <div>
+        <button>
+            <a href="../Menuprincipal.html" target="_blank">Volver al Menú Principal</a>
+        </button>
+        <p id="respuesta"></p>
+        <a id="downloadLink" style="display: none;">Descargar JSON </a>
+    </div>
+</body>
+</html>

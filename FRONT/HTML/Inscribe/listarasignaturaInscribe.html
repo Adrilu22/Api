@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listar Asignaturas y Estudiantes</title>
+    <script src="/JS/Venta/listarAsignaturasEstudiantes.js"></script>
+    <link rel="stylesheet" href="ListarAsignaturaInscribe.css"/>
+</head>
+<body>
+    <h2>Consultar Asignatura por Estudiantes</h2>
+    <form name="consultarPorAsignatura">
+    <form name="consultarPorEstudiantes">
+        <label for="cod_e">ID del Estudiante:</label>
+        <input type="number" name="cod_e" id="cod_e">
+        <button onclick="consultarAsignaturasPorEstudiantes()">Consultar</button>
+    </form>
+    <div id="resultadoAsignaturasPorEstudiantes"></div>
+    
+</body>
+</html>

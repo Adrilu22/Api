@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Asignatura</title>
+    <script src="/FRONT/JS/Asignatura/AdicionarAsignatura.js"></script>
+    <link rel="stylesheet" href="AdicionarAsignatura.css"/>
+</head>
+<body>
+    <h1>Adicionar Asignatura</h1>
+    <div>
+        <form name="adicionarAsignatura" method="post" action="/addAsignatura">
+            <label for="cod_a">Código de la Asignatura</label>
+            <input type="text" name="cod_a" id="cod_a" required>
+
+            <label for="nom_a">Nombre de la Asignatura</label>
+            <input type="text" name="nom_a" id="nom_a" required>
+
+            <label for="ih">Horas de la Asignatura</label>
+            <input type="number" name="ih" id="ih" required>
+
+            <label for="cred">Créditos de la Asignatura</label>
+            <input type="number" name="cred" id="cred" required>
+        </form>
+
+        <p id="respuesta"></p>
+        <a id="downloadLink" style="display: none;">Descargar JSON </a>
+        
+        <button onclick="adicionar()">Adicionar Asignatura</button>
+        <button>
+            <a href="../Menuprincipal.html" target="_blank">Volver al Menu Pricipal</a>
+        </button>
+        
+    </div>
+</body>
+</html>
